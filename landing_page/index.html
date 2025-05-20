@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EclipseFin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-blue-600 text-white py-4 flex justify-between items-center shadow-md sticky top-0 z-10 rounded-md">
+      <div class="logo text-xl font-bold ml-4">EclipseFin</div>
+      <nav class="mr-4">
+        <ul class="flex space-x-4">
+          <li><a href="#features" class="hover:text-blue-200 no-underline">Features</a></li>
+          <li><a href="#how-it-works" class="hover:text-blue-200 no-underline">How It Works</a></li>
+          <li><a href="#pricing" class="hover:text-blue-200 no-underline">Pricing</a></li>
+          <li><a href="#faqs" class="hover:text-blue-200 no-underline">FAQs</a></li>
+          <li><a href="#contact" class="hover:text-blue-200 no-underline">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero bg-gradient-to-br from-blue-700 to-blue-400 text-white text-center py-20 px-4 rounded-md">
+      <h1 class="text-3xl font-bold mb-4">Empowering Your Financial Future</h1>
+      <p class="text-lg mb-8">
+        Unlock the potential of decentralized finance with EclipseFin.  A platform built for you.
+      </p>
+      <button class="bg-yellow-500 text-blue-700 py-3 px-6 rounded-full hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-75 font-semibold">
+        Get Started
+      </button>
+    </section>
+
+    <section id="features" class="section bg-gray-100 py-16 px-4 text-center rounded-md">
+      <h2 class="text-2xl font-bold mb-8 text-blue-600">Key Features</h2>
+      <div class="feature-grid grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div class="feature-card bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+          <h3 class="text-xl font-semibold mb-4 text-green-500">Decentralized Trading</h3>
+          <p class="text-gray-700 mb-4">Trade digital assets directly with others, without intermediaries.</p>
+          <img src="data:image/jpeg;base64,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" alt="Decentralized Trading" class="rounded-md">
+        </div>
+        <div class="feature-card bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+          <h3 class="text-xl font-semibold mb-4 text-green-500">Secure and Transparent</h3>
+          <p class="text-gray-700 mb-4">Your transactions are recorded on the blockchain, ensuring security and transparency.</p>
+           <img src="https://cdn.finveox.com//Content/Upload/website-finveo/20230525102050655_18d6c625-890a-4af9-be51-ff575425d81b.jpg" alt="Secure and Transparent" class="rounded-md">
+        </div>
+        <div class="feature-card bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+          <h3 class="text-xl font-semibold mb-4 text-green-500">Yield Farming</h3>
+          <p class="text-gray-700 mb-4">Earn rewards by providing liquidity to the platform.</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ38UzxDasvCkrkdCONOEon3sqCbuvF0WiRA&s" alt="Yield Farming" class="rounded-md">
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section bg-blue-100 py-16 px-4 text-center rounded-md">
+      <h2 class="text-2xl font-bold mb-8 text-blue-600">How It Works</h2>
+      <div class="process-grid grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">
+        <div class="process-step bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-4 text-purple-500">1. Connect Wallet</h3>
+          <p class="text-gray-700">Connect your MetaMask, Trust Wallet, or any other Web3 wallet.</p>
+        </div>
+        <div class="process-step bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-4 text-purple-500">2. Select Asset</h3>
+          <p class="text-gray-700">Choose the digital asset you want to trade or provide liquidity for.</p>
+        </div>
+        <div class="process-step bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-4 text-purple-500">3. Start Trading or Earning</h3>
+          <p class="text-gray-700">Execute trades or start earning rewards through yield farming.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section bg-gray-100 py-16 px-4 text-center rounded-md">
+      <h2 class="text-2xl font-bold mb-8 text-blue-600">Pricing Plans</h2>
+      <div class="pricing-grid grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div class="pricing-card bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+          <h3 class="text-xl font-semibold mb-4 text-indigo-500">Basic</h3>
+          <p class="text-gray-700 mb-4">Free</p>
+          <p class="text-gray-700 mb-4">Access to basic trading features.</p>
+          <button class="bg-green-500 text-white py-3 px-6 rounded-full hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 font-semibold">
+            Get Started
+          </button>
+        </div>
+        <div class="pricing-card bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+          <h3 class="text-xl font-semibold mb-4 text-indigo-500">Pro</h3>
+          <p class="text-gray-700 mb-4">$10/month</p>
+          <p class="text-gray-700 mb-4">Advanced trading tools and higher yield farming rewards.</p>
+          <button class="bg-green-500 text-white py-3 px-6 rounded-full hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 font-semibold">
+            Upgrade to Pro
+          </button>
+        </div>
+        <div class="pricing-card bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+          <h3 class="text-xl font-semibold mb-4 text-indigo-500">Premium</h3>
+          <p class="text-gray-700 mb-4">$50/month</p>
+          <p class="text-gray-700 mb-4">Exclusive features, dedicated support, and the highest rewards.</p>
+          <button class="bg-green-500 text-white py-3 px-6 rounded-full hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 font-semibold">
+            Go Premium
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="faqs" class="section bg-blue-100 py-16 px-4 text-center rounded-md">
+      <h2 class="text-2xl font-bold mb-8 text-blue-600">Frequently Asked Questions</h2>
+      <div class="faq-list max-w-3xl mx-auto text-left">
+        <div class="faq-item bg-white rounded-lg shadow-md p-4 mb-4">
+          <h3 class="text-lg font-semibold mb-2 text-teal-500">What is DeFi?</h3>
+          <p class="text-gray-700">
+            DeFi, or Decentralized Finance, refers to financial services built on blockchain technology.
+            It allows for peer-to-peer transactions, lending, and borrowing without traditional intermediaries.
+          </p>
+        </div>
+        <div class="faq-item bg-white rounded-lg shadow-md p-4 mb-4">
+          <h3 class="text-lg font-semibold mb-2 text-teal-500">Is EclipseFin secure?</h3>
+          <p class="text-gray-700">
+            Yes, EclipseFin prioritizes security.  We utilize blockchain technology and smart contracts to ensure that your assets and transactions are secure.
+          </p>
+        </div>
+        <div class="faq-item bg-white rounded-lg shadow-md p-4 mb-4">
+          <h3 class="text-lg font-semibold mb-2 text-teal-500">How do I get started?</h3>
+          <p class="text-gray-700">
+            To get started, connect your Web3 wallet (e.g., MetaMask, Trust Wallet) to the EclipseFin platform.
+            Then, you can begin trading or participating in yield farming.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-gray-100 py-16 px-4 text-center rounded-md">
+      <h2 class="text-2xl font-bold mb-8 text-blue-600">Contact Us</h2>
+      <p class="text-lg text-gray-700 mb-4">
+        Get in touch with us for any inquiries or support.
+      </p>
+      <p class="text-lg text-blue-700 mb-8 email">
+        Email: support@eclipsefin.com
+      </p>
+      <button class="bg-indigo-500 text-white py-3 px-6 rounded-full hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75 font-semibold">
+        Contact Support
+      </button>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6 text-center rounded-md">
+      <p>© 2024 EclipseFin. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
